@@ -1,0 +1,602 @@
+/*@import url(https://fonts.googleapis.com/css?family=Neuton:300,400,700,400italic);*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    /*background-color: #3aafa9;  */
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+/*
+for tabpanes*/
+.tab-content {
+    border-left: solid 1px lightgrey;
+    border-bottom: solid 1px lightgrey;
+    border-right: solid 1px lightgrey;
+
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.8em;
+    font-weight: 300;
+    color: #777;
+    margin: 0;
+}
+
+
+strong {
+    font-weight: 600;
+    color: #333;
+}
+
+.jdl {
+    font-size: 20px;
+    color: #bb2b81;
+    font-weight: 600;
+}
+
+
+text {
+    line-height: 1.8em;
+    font-weight: 300;
+    color: #777;
+}
+
+h6 {
+    line-height: 1.4em;
+    font-weight: 300;
+    color: #bb2b39;
+    text-align: center;
+    font-weight: 600
+}
+
+h5 {
+    font-size: 14px;
+    line-height: 1.4em;
+    font-weight: 300;
+    text-align: center;
+    font-weight: 600
+}
+
+
+
+figure.produk {
+    margin: 0 5px 5px 0;
+    margin-left: 15px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 2px;
+}
+
+
+.produk h2,
+.produk p {
+    margin: auto;
+    font-size: 15px;
+}
+
+.produk h2 {
+    font-weight: 700;
+    font-size: 16px;
+    color: rgba(0, 0, 0, .75);
+    margin-top: 20px;
+}
+
+.produk .author {
+    font-size: 16px;
+    margin-top: 5px;
+    color: rgba(0, 0, 0, .55);
+    font-weight: 400;
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+.cover {
+    /* display: inline-block;
+    position: relative; */
+    /* box-shadow: 0 10px 20px -8px; */
+}
+
+.pad15.hvr {
+    transition: all ease .3s;
+    position: relative;
+    box-shadow: 0 10px 20px -8px;
+}
+
+.pad15.hvr:hover {
+    /* transition: box-shadow .2; */
+    border: 1.5px solid #bb2b81;
+    background: #fff;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+    transform: scale(1.02);
+}
+
+.pad15 {
+    transition: all ease .3s;
+    position: relative;
+    box-shadow: 0 10px 20px -8px;
+    border-radius: 4px;
+
+}
+
+.pad15:hover {
+    background: #fff;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+    transform: scale(1.02);
+}
+
+/NAVBAR PROPERTY/
+
+.mask {
+    background-position: center;
+    background-image: url(/bibit/assets/searchhh.png);
+    background-size: 23px;
+    background-repeat: no-repeat;
+    width: 36px;
+    height: 31px;
+    padding: 5px;
+    background-color: white;
+}
+
+button.btn.btn-outline-success.nav-button-img {
+    color: #fff;
+    border-color: #fff;
+    width: 49px;
+    height: 31px;
+    background-image: url(/bibit/assets/cart.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+button.btn.btn-outline-success.nav-button {
+    color: #fff;
+    border-color: #fff;
+    width: 73px;
+    height: 31px;
+    padding: 0;
+}
+
+.navbar-logout {
+    color: #fff;
+    border-color: #fff;
+    width: 73px;
+    height: 31px;
+    padding: 0;
+    margin-top: 8px;
+}
+
+.navbar-logout:hover {
+    border-color: #fff;
+}
+
+
+
+.username {
+    font-size: 13px;
+}
+
+/END NAVBAR PROPERTY/
+
+.card-custom {
+    overflow: hidden;
+    min-height: 450px;
+    box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
+}
+
+.card-custom-img {
+    height: 200px;
+    min-height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-color: inherit;
+}
+
+
+
+/*.wadah {
+border: solid 1px;
+border-radius: 1px;
+}*/
+
+.wadah:hover {
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+    transform: scale(1.02);
+
+}
+
+.follower .img:hover {
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+    transform: scale(1.02);
+}
+
+.row .coverdilan:hover {
+    transform: scale(1.2);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+}
+
+/* First border-left-width setting is a fallback */
+.card-custom-img::after {
+    position: absolute;
+    content: '';
+    top: 161px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-top-width: 40px;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 545px;
+    border-left-width: calc(575px - 5vw);
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: inherit;
+}
+
+
+.load {
+
+    vertical-align: top;
+    /text-transform: uppercase;/
+    transition: all ease .3s;
+    position: relative;
+    box-shadow: 0 10px 20px -8px;
+}
+
+.load:hover {
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+    transform: scale(1.02);
+}
+
+.blank {
+    overflow: hidden;
+}
+
+.cover {
+    width: 150px;
+    height: 200px;
+}
+
+.cover img {
+    max-width: 150px;
+    max-height: 200px;
+    display: block;
+    position: relative;
+}
+
+.footer_head {
+    border: solid;
+    border-width: 1px;
+    border-color: #b3b3cc;
+
+}
+
+
+/countdown/
+@import "compass/css3";
+
+/*@import url(https://fonts.googleapis.com/css?family=Arvo:400,700);*/
+
+.mod-countdown {
+    font-size: 12px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #FFC800;
+    display: inline-table;
+}
+
+.judul {
+    display: inline-block;
+    font-weight: bold;
+}
+
+.primary {
+    display: inline-block;
+    margin: 0 2px 0 0;
+}
+
+.count {
+    font-size: 14px;
+    line-height: 0.60em;
+}
+
+.label {
+    line-height: 0.60em;
+}
+
+
+
+.secondary {
+    display: inline-block;
+    margin: 0 2px 0 0;
+}
+
+.count {
+    display: inline-block;
+    font-size: 13px;
+    line-height: 0.65em;
+}
+
+.flashsale {
+    border: solid 1px;
+    height: 400px;
+    background-color: #F80A35;
+}
+
+/* .btn-outline-success {
+    color: #28a745;
+} */
+
+/* BAGIAN INFO CSS E YO  */
+.container-fluid.info {
+    margin: 5px;
+    padding: 15px;
+}
+
+.title {
+    font-size: 2em;
+    margin-left: 30px;
+}
+
+.rating {
+    margin-bottom: 5px;
+    margin-left: 30px;
+}
+
+.gaya {
+    margin-bottom: 5px;
+    margin-left: 30px;
+}
+
+.stock {
+    margin: 5px 0;
+    margin-left: 30px;
+}
+
+.xQty {
+    margin: 5px 0;
+    margin-left: 30px;
+}
+
+
+
+@media screen and (min-width: 1024px) {
+    * {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    * {
+        display: none;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    * {
+        display: none;
+    }
+}
+
+
+@media screen and (min-width: 480px) {
+    body {
+        padding: 0;
+        margin: 0;
+    }
+
+    nav {
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbars {
+        margin-left: -10%;
+    }
+
+    .navbar-tabs {
+        margin-left: -8%;
+    }
+
+    .mod-countdown {
+        margin: 0 0 0 15%;
+    }
+
+    .item {
+        width: 11%;
+
+    }
+
+    .flashsale {
+        height: auto;
+    }
+
+    #cart {
+        right: -13em;
+    }
+
+    h2 {
+        width: max-content;
+    }
+
+    .item {
+        width: 10% !important;
+    }
+
+    .price {
+        width: 0;
+        margin: 0 0 0 20%;
+    }
+
+    #bintang {
+        margin-left: -70%;
+    }
+
+    .produk h2 {
+        font-size: 1.5em;
+    }
+
+    .produk h6,
+    .produk p {
+        font-size: 1.5em;
+    }
+
+    /* CONTENT BAWAH */
+    #rp-mobile {
+        margin-left: 0;
+    }
+
+    #btn-produk {
+        padding: 0;
+    }
+
+    /* FOOTER */
+
+    .mitra h6 {
+        font-size: 1.2em;
+    }
+
+    .sosmed {
+
+        width: 100%;
+        text-align: center;
+    }
+
+    .socmed {
+        display: inline-block;
+        width: 100%;
+
+        border: none;
+        border-radius: 4px;
+    }
+
+    .socmed img {
+        width: 100%;
+
+    }
+
+    #tombol-ikut {
+        text-align: left;
+        width: 80%;
+    }
+
+    .daftar button {
+        padding: 5px;
+        font-size: 1em;
+    }
+
+    /* property product */
+    .product {
+        display: inline-block;
+        width: 14em;
+        padding: 15px;
+        border: 5px solid transparent;
+        vertical-align: top;
+        text-align: left;
+        transition: all ease .3s;
+        margin: 7px 5px 24px 0;
+        position: relative;
+        box-shadow: 0 10px 20px -8px;
+    }
+
+
+    @media screen and (max-width: 320px) {
+        
+        .mod-countdown {
+            margin: 0 0 0 9%;
+        }
+
+        .item {
+            width: 12%;
+
+        }
+
+        .flashsale {
+            height: auto;
+        }
+
+        #cart {
+            right: -13em;
+        }
+
+        h2 {
+            width: max-content;
+        }
+
+        .price {
+            width: 0;
+            margin: 0 0 0 18%;
+        }
+
+        #bintang {
+            margin-left: -60%;
+        }
+
+        .produk h2 {
+            font-size: 1.4em;
+        }
+
+        .produk h6,
+        .produk p {
+            font-size: 1.4em;
+        }
+
+        /* CONTENT BAWAH */
+        #rp-mobile {
+            margin-left: 0;
+        }
+
+        #btn-produk {
+            padding: 0;
+        }
+
+        /* FOOTER */
+
+        .mitra h6 {
+            font-size: 1em;
+        }
+
+        .sosmed {
+
+            width: 100%;
+            text-align: center;
+        }
+
+        .socmed {
+            display: inline-block;
+            width: 100%;
+
+            border: none;
+            border-radius: 4px;
+        }
+
+        .socmed img {
+            width: 100%;
+
+        }
+
+        #tombol-ikut {
+            text-align: left;
+            width: 70%;
+        }
+
+        .daftar button {
+            padding: 4px;
+            font-size: 0.9em;
+        }
+    }
+}

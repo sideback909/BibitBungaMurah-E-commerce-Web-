@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title></title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style1.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="/bibit/css/magnify.css">
+  <link rel="stylesheet" type="text/css" href="/bibit/css/quantity.css">
+   <link rel="stylesheet" type="text/css" href="/bibit/css/cat.css">
+    <link rel="stylesheet" type="text/css" href="/bibit/css/style1.css">
+    <link rel="stylesheet" type="text/css" href="/bibit/css/info.css">
+</head>
+<body> 
+
+
+  <!-- header -> navbar -->
+  <div class="container-fluid">
+      <nav class="navbar navbar-expand-sm navbar-dark fixed-top" style="background-color:#2BBBAD;">
+        <a class="navbar-brand" href="#">
+          <img src="assets/logoj.png" alt="logo" style="width:58px;">
+        </a>
+        <a class="nav-link mt-2" href="#">Bibit Bunga Murah
+          <span class="sr-only">(current)</span>
+        </a>
+        <div class="navbar-category">
+          <a href="javascript:;" class="category-button">
+            
+            <div class="category-btn">
+              Category
+            </div>
+          </a>
+
+          <ul class="category-menu">
+            <li class="category-dropdown">
+              <a href="#"><img src="https://img.icons8.com/color/20/000000/sesame.png">Benih</a>
+              <ul class="category-submenu">
+                <!-- <li class="submenu-header"></li> -->
+                <li class="submenu-header">Benih</li>
+                <li><a href="#">Benih Celosia</a></li>
+                <li><a href="#">Benih Matahari</a></li>
+                <li><a href="#">Benih Aster</a></li>
+                <li><a href="#">Benih Vinca</a></li>
+                <li><a href="#">Kenop Putih</a></li>
+                <li class="submenu-divider"></li>
+                <li><a href="#">Tampilkan lebih lanjut</a></li>
+              </ul>
+            </li>
+            <li class="category-dropdown">
+              <a href="#"><img src="https://img.icons8.com/color/20/000000/paper-bag-with-seeds.png">Bibit</a>
+              <ul class="category-submenu">
+                <!-- <li class="submenu-header"></li> -->
+                <li class="submenu-header">Bibit</li>
+                <li><a href="#">Bibit Celosia</a></li>
+                <li><a href="#">Benih Matahari</a></li>
+                <li><a href="#">Benih Aster</a></li>
+                <li><a href="#">Benih Vinca</a></li>
+                <li><a href="#">Kenop Putih</a></li>
+                <li class="submenu-divider"></li>
+                <li><a href="#">Tampilkan lebih lanjut</a></li>
+              </ul>
+            </li>
+            <li class="category-dropdown">
+              <a href="#"><img src="https://img.icons8.com/dusk/20/000000/flower.png">Tanaman</a>
+              <ul class="category-submenu">
+                <!-- <li class="submenu-header"></li> -->
+                <li class="submenu-header">Tanaman</li>
+                <li><a href="#">Bunga Matahari</a></li>
+                <li><a href="#">Bunga Kamboja</a></li>
+                <li><a href="#">Bunga Aster</a></li>
+                <li class="submenu-divider"></li>
+                <li><a href="#">Tampilkan lebih lanjut</a></li>
+              </ul>
+            </li>
+            <li class="category-dropdown">
+              <a href="#"><img src="https://img.icons8.com/cotton/20/000000/tree.png">Pohon</a>
+              <ul class="category-submenu">
+                <!-- <li class="submenu-header"></li> -->
+                <li class="submenu-header">Pohon</li>
+                <li><a href="#">Pohon Stroberi</a></li>
+                <li><a href="#">Bunga Mangga</a></li>
+                <li><a href="#">Bunga jeruk</a></li>
+                <li class="submenu-divider"></li>
+                <li><a href="#">Tampilkan lebih lanjut</a></li>
+              </ul>
+            </li>
+            <li class="category-dropdown">
+              <a href="#"><img src="https://img.icons8.com/color/20/000000/orchid.png">bunga</a>
+              <ul class="category-submenu">
+                <!-- <li class="submenu-header"></li> -->
+                <li class="submenu-header">Bunga</li>
+                <li><a href="#">Bunga Anggrek</a></li>
+                <li><a href="#">Bunga Mangga</a></li>
+                <li><a href="#">Bunga jeruk</a></li>
+                <li class="submenu-divider"></li>
+                <li><a href="#">Tampilkan lebih lanjut</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <form class="form-inline my-1 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Cari Bibit,pohon,tanaman" aria-label="Search" style="width: 300px;">
+          <a href="#" class="btn btn-outline">Search</a>
+          <a href="#" class="btn btn-outline ml-2">Masuk</a>
+           <a href="#" class="btn btn-outline ml-2">Daftar</a>
+         
+        </form>
+      </nav>
+<div class="wrapper">
+        <section id="cart">
+          <span class="cart-title"><i class="fa fa-shopping-cart fa-fw"><span class="cart-counter">0</span></i>Keranjang</span>
+          <article class="cart-total">
+            <span class="product-price"></i><b>0</b></span><br>
+            <button type="button" class="btn btn-outline-info" style="width: 170px;">Lihat Semua</button>
+          </article>
+          <div class="close"><i class="fa fa-times fa-fw"></i></div>
+        </section>
+
+
+
+
+
+     <div class="col-md-8 ml-4 pt-2 " style="margin-top:80px;">
+        
+        <div class="card" style="max-width: 900px;">
+  <div class="row no-gutters mt-5">
+    <div class="col-md-4 ml-4">
+      
+      <img id="sample-watch" src="assets/products/butter_big.jpeg" alt="Sample image" class="zoom" data-magnify-src="assets/products/butterdaisy.jpg" class="image-fluid">
+
+    </div>
+
+<div class="row">
+    <div class="col-md-12">
+            
+   <table>
+            <tr>
+              <th><h4>Tanaman Butter Daisy</h4>
+                     <i class="fas fa-star text-success"></i>
+                     <i class="fas fa-star text-success"></i>
+                     <i class="fas fa-star text-success"></i>
+                     <i class="fas fa-star text-success"></i>
+              </th>
+
+            <tr>
+            <td><h5>Rp 15.000</h5></td>
+            </tr>
+            <tr>
+              <th><h5>Stok : 10</h5></th>
+            </tr>
+          </tr>
+           
+        </table>
+         <div class="xQty">
+    <input type='button' value='-' class='qtyminus' field='quantity' />
+    <input type='text' name='quantity' value='1' class='qtyValue' min="1" />
+    <input type='button' value='+' class='qtyplus' field='quantity' />
+</div><br>
+<div class="buy">
+<button type="button" class="btn btn-outline-info">Beli Sekarang</button>
+<button type="button" class="btn btn-info">Masukkan keranjang</button>
+</div>
+
+    </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist">
+    <li class="nav-item">
+      <a class="nav-link active" data-toggle="tab" href="#home">Deskripsi</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#menu1">Ulasan</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#menu2">Catatan Produk</a>
+    </li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div id="home" class="container tab-pane active"><br>
+      <h3>Deskripsi</h3>
+      <p>Tanaman Butter Daisy berwarna kuning, dengan daun hijau. Kebanyakan tanaman butter daisy yang ada di Indonesia tumbuh tegak, yang ini bisa merambat sehingga sangat unik, serta menghasilkan bunga-bunga butter daisy kuning lembut yang indah.</p>
+      </strong>
+      <strong>Tips perawatan</strong>
+      <ul>
+        <li><p>Dapat tumbuh baik di dataran rendah sampai dataran tinggi</p></li>
+        <li><p>Perlu sinar matahari penuh/sepanjang hari</p></li>
+        <li><p>Siram sehari sekali</p></li>
+        <li><p>Gunakan humus atau tanah biasa sebagai media tanam</p></li>
+      </ul>
+    </div>
+    <div id="menu1" class="container tab-pane fade"><br>
+      <h3>Ulasan</h3>
+      <p>Belum ada ulasan</p>
+      <p>Hanya pelanggan yang telah membeli produk ini yang dapat memberikan ulasan.</p>
+    </div>
+    <div id="menu2" class="container tab-pane fade"><br>
+      <h3>Catatan Produk</h3>
+      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+    </div>
+  </div>
+</div>
+</div>
+
+
+ <!-- PRODUCTS -->
+          <section id="catalog">
+            <article class="product" data-product-id="1">
+              <div class="product-wrapper">
+                <div class="product-img">
+                  <img src="assets/products/aster.jpg"/>
+                </div>
+                <div class="product-info">
+                  <span class="product-brand">Aster</span>
+                  <span class="product-decription">Bibit Aster</span>
+                  <span class="product-volume">isi 100</span>
+                  <div class="product-footer">
+                    <button class="add-cart button">Add to cart</button>
+                    <span class="product-price"></i>15000</span>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article class="product" data-product-id="2">
+              <div class="product-wrapper">
+                <div class="product-img">
+                  <img src="assets/products/bunga_kenop.jpg" alt="">
+                </div>
+                <div class="product-info">
+                  <span class="product-brand">Kenop</span>
+                  <span class="product-decription">Bunga Kenop</span>
+                  <span class="product-volume">isi 100</span></a>
+                  <div class="product-footer">
+                    <button class="add-cart button">Add to cart</button>
+                    <span class="product-price">15000</span>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article class="product" data-product-id="3">
+              <div class="product-wrapper">
+                <div class="product-img">
+                  <img src="assets/products/butterdaisy.jpg" alt="">
+                </div>
+                <div class="product-info">
+                  <span class="product-brand">Butter Daisy</span>
+                  <span class="product-decription">Butter Daisy</span>
+                  <span class="product-volume">Isi 100</span></a>
+                  <div class="product-footer">
+                    <button class="add-cart button">Add to cart</button>
+                    <span class="product-price">1800</span>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article class="product" data-product-id="4">
+              <div class="product-wrapper">
+                <div class="product-img">
+                  <img src="assets/products/celosia_crystal.jpg" alt="">
+                </div>
+                <div class="product-info">
+                  <span class="product-brand">Celosia Cristal</span>
+                  <span class="product-decription">Bibit Celosia Crystal</span>
+                  <span class="product-volume">Isi 100</span></a>
+                  <div class="product-footer">
+                    <button class="add-cart button">Add to cart</button>
+                    <span class="product-price">15000</span>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article class="product" data-product-id="4">
+              <div class="product-wrapper">
+                <div class="product-img">
+                  <img src="assets/products/celosia_crystal.jpg" alt="">
+                </div>
+                <div class="product-info">
+                  <span class="product-brand">Celosia Cristal</span>
+                  <span class="product-decription">Bibit Celosia Crystal</span>
+                  <span class="product-volume">Isi 100</span></a>
+                  <div class="product-footer">
+                    <button class="add-cart button">Add to cart</button>
+                    <span class="product-price">15000</span>
+                  </div>
+                </div>
+              </div>
+            </article>
+             <article class="product" data-product-id="5">
+              <div class="product-wrapper">
+                <div class="product-img">
+                  <img src="assets/products/celosia_crystal.jpg" alt="">
+                </div>
+                <div class="product-info">
+                  <span class="product-brand">Celosia Cristal</span>
+                  <span class="product-decription">Bibit Celosia Crystal</span>
+                  <span class="product-volume">Isi 100</span></a>
+                  <div class="product-footer">
+                    <button class="add-cart button">Add to cart</button>
+                    <span class="product-price">15000</span>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article class="product" data-product-id="6">
+              <div class="product-wrapper">
+                <div class="product-img">
+                  <img src="assets/products/celosia_crystal.jpg" alt="">
+                </div>
+                <div class="product-info">
+                  <span class="product-brand">Celosia Cristal</span>
+                  <span class="product-decription">Bibit Celosia Crystal</span>
+                  <span class="product-volume">Isi 100</span></a>
+                  <div class="product-footer">
+                    <button class="add-cart button">Add to cart</button>
+                    <span class="product-price">15000</span>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article class="product" data-product-id="7">
+              <div class="product-wrapper">
+                <div class="product-img">
+                  <img src="assets/products/celosia_crystal.jpg" alt="">
+                </div>
+                <div class="product-info">
+                  <span class="product-brand">Celosia Cristal</span>
+                  <span class="product-decription">Bibit Celosia Crystal</span>
+                  <span class="product-volume">Isi 100</span></a>
+                  <div class="product-footer">
+                    <button class="add-cart button">Add to cart</button>
+                    <span class="product-price">15000</span>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article class="product" data-product-id="8">
+              <div class="product-wrapper">
+                <div class="product-img">
+                  <img src="assets/products/celosia_crystal.jpg" alt="">
+                </div>
+                <div class="product-info">
+                  <span class="product-brand">Celosia Cristal</span>
+                  <span class="product-decription">Bibit Celosia Crystal</span>
+                  <span class="product-volume">Isi 100</span></a>
+                  <div class="product-footer">
+                    <button class="add-cart button">Add to cart</button>
+                    <span class="product-price">15000</span>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article class="product" data-product-id="8">
+              <div class="product-wrapper">
+                <div class="product-img">
+                  <img src="assets/products/celosia_crystal.jpg" alt="">
+                </div>
+                <div class="product-info">
+                  <span class="product-brand">Celosia Cristal</span>
+                  <span class="product-decription">Bibit Celosia Crystal</span>
+                  <span class="product-volume">Isi 100</span></a>
+                  <div class="product-footer">
+                    <button class="add-cart button">Add to cart</button>
+                    <span class="product-price">15000</span>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+
+     </div>
+
+
+</div>
+</div>
+</div>
+
+  
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<!--<![endif]-->
+<script src="jquery.magnify.js"></script>
+<script>
+var $zoom;
+$(document).ready(function() {
+  // Initiate magnification powers
+  $zoom = $('.zoom').magnify({
+      afterLoad: function() {
+        console.log('Magnification powers activated!');
+      }
+    });
+});
+$('button').click(function() {
+  $zoom.destroy();
+});
+$('html').on({
+  magnifystart: function() {
+    console.log('\'magnifystart\' event fired');
+  },
+  magnifyend: function() {
+    console.log('\'magnifyend\' event fired');
+  }
+});
+</script>
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-2843793-6', 'auto');
+ga('send', 'pageview');
+</script>
+
+<script type="text/javascript" src="/bibit/css/quantity.js"></script>
+<script type="text/javascript" src="/bibit/css/info.js"></script>
+
+</body>
+</html>

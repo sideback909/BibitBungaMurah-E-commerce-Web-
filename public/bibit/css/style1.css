@@ -1,0 +1,1268 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+
+body {
+    font-family: "Open Sans", sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+/*
+for tabpanes*/
+.tab-content {
+    border-left: solid 1px lightgrey;
+    border-bottom: solid 1px lightgrey;
+    border-right: solid 1px lightgrey;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.8em;
+    font-weight: 300;
+    color: #777;
+    margin: 0;
+}
+
+strong {
+    font-weight: 600;
+    color: #333;
+}
+
+.jdl {
+    margin-top: 1%;
+    font-size: 1em;
+    color: #bb2b81;
+    font-weight: 600;
+}
+
+text {
+    line-height: 1.8em;
+    font-weight: 300;
+    color: #777;
+}
+
+h6 {
+    line-height: 1.4em;
+    font-weight: 300;
+    color: #bb2b39;
+    text-align: center;
+    font-weight: 600;
+}
+
+h5 {
+    font-size: 14px;
+    line-height: 1.4em;
+    font-weight: 300;
+    text-align: center;
+    font-weight: 600;
+}
+
+/* navbar */
+.navbar {
+    justify-content: left;
+}
+
+.navbar-toggler {
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.produk h2,
+.produk p {
+    margin: auto;
+    font-size: 15px;
+}
+
+.produk h2 {
+    font-weight: 700;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.produk .author {
+    font-size: 16px;
+    margin-top: 5px;
+    color: rgba(0, 0, 0, 0.55);
+    font-weight: 400;
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.pad15.hvr {
+    transition: all ease 0.3s;
+    position: relative;
+    box-shadow: 0 10px 20px -8px;
+}
+
+.pad15.hvr:hover {
+    /* transition: box-shadow .2; */
+    border: 1.5px solid #bb2b81;
+    background: #fff;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+    transform: scale(1.02);
+}
+
+.pad15:hover {
+    background: #fff;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+    transform: scale(1.02);
+}
+
+/* /NAVBAR PROPERTY/ */
+
+.mask {
+    background-position: center;
+    background-image: url(/bibit/assets/searchhh.png);
+    background-size: 23px;
+    background-repeat: no-repeat;
+    width: 36px;
+    height: 31px;
+    padding: 5px;
+    background-color: white;
+}
+
+button.btn.btn-outline-success.nav-button-img {
+    color: #fff;
+    border-color: #fff;
+    width: 73px;
+    height: 31px;
+    background-image: url(/bibit/assets/cart.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+button.btn.btn-outline-success.nav-button {
+    color: #fff;
+    border-color: #fff;
+    min-width: 73px;
+    height: 31px;
+    padding: 0 1em;
+}
+
+.navbar-logout {
+    color: #fff;
+    border-color: #fff;
+    width: 73px;
+    height: 31px;
+    padding: 0;
+    /* margin-top: 8px;
+    margin: 5px 0 0 16px; */
+}
+
+.navbar-logout:hover {
+    border-color: #fff;
+}
+
+/* .username {
+    font-size: 13px;
+} */
+
+/* /END NAVBAR PROPERTY/ */
+
+.card-custom {
+    overflow: hidden;
+    min-height: 450px;
+    box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
+}
+
+.card-custom-img {
+    height: 200px;
+    min-height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-color: inherit;
+}
+
+/*.wadah {
+border: solid 1px;
+border-radius: 1px;
+}*/
+
+.wadah:hover {
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+    transform: scale(1.02);
+}
+
+.follower .img:hover {
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+    transform: scale(1.02);
+}
+
+.row .coverdilan:hover {
+    transform: scale(1.2);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+}
+
+/* First border-left-width setting is a fallback */
+.card-custom-img::after {
+    position: absolute;
+    content: "";
+    top: 161px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-top-width: 40px;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 545px;
+    border-left-width: calc(575px - 5vw);
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: inherit;
+}
+
+.load {
+    vertical-align: top;
+    /* text-transform: uppercase;/ */
+    transition: all ease 0.3s;
+    position: relative;
+    box-shadow: 0 10px 20px -8px;
+}
+
+.load:hover {
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+    transform: scale(1.02);
+}
+
+.blank {
+    overflow: hidden;
+}
+
+.cover {
+    height: auto;
+}
+
+.cover img {
+    max-width: 150px;
+    max-height: 200px;
+    /* display: block; */
+    position: relative;
+}
+
+.footer_head {
+    border: solid;
+    border-width: 1px;
+    border-color: #b3b3cc;
+}
+
+/* /countdown/ */
+@import "compass/css3";
+
+/*@import url(https://fonts.googleapis.com/css?family=Arvo:400,700);*/
+
+.mod-countdown {
+    font-size: 12px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #ffc800;
+    display: inline-table;
+}
+
+.judul {
+    display: inline-block;
+    font-weight: bold;
+}
+
+.primary {
+    display: inline-block;
+    margin: 0 2px 0 0;
+}
+
+.count {
+    font-size: 14px;
+    line-height: 0.6em;
+}
+
+.label {
+    line-height: 0.6em;
+}
+
+.secondary {
+    display: inline-block;
+    margin: 0 2px 0 0;
+}
+
+.count {
+    display: inline-block;
+    font-size: 13px;
+    line-height: 0.65em;
+}
+
+.flashsale {
+    border: solid 1px;
+    height: 400px;
+    background-color: #f80a35;
+}
+
+/* BAGIAN INFO CSS E YO  */
+.container-fluid.info {
+    margin: 5px;
+    padding: 15px;
+}
+
+.title {
+    font-size: 2em;
+    margin-left: 30px;
+}
+
+.rating {
+    margin-bottom: 5px;
+    margin-left: 30px;
+}
+
+.gaya {
+    margin-bottom: 5px;
+    margin-left: 30px;
+}
+
+.stock {
+    margin: 5px 0;
+    margin-left: 30px;
+}
+
+.xQty {
+    margin: 5px 0;
+    margin-left: 30px;
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        padding: 0;
+        margin: 0;
+    }
+
+    .navbar-expand-lg .navbar-nav {
+        margin-top: 1rem;
+    }
+
+    .navbar-brand {
+        margin-left: 1%;
+    }
+
+    nav {
+        margin: 0;
+        padding: 0;
+    }
+    .navbar-logout {
+        margin: 6px 0px 0 4px;
+    }
+
+    .category-btn {
+        margin-left: 0;
+    }
+    #cart {
+        right: -13em;
+        height: 35%;
+    }
+
+    #catalog {
+        text-align: center;
+    }
+
+    .navbar-expand-lg .navbar-nav {
+        margin-left: 1rem;
+    }
+    /* button.btn.btn-outline-success.nav-button {
+        margin-top: -13px;
+        width: auto;
+        padding: 4px;
+    } */
+    /* .form-inline {
+        margin-left: 1%;
+        margin-top: -3%;
+    } */
+
+    .form-inline .custom-select,
+    .form-inline .input-group {
+        /* width: auto; */
+        display: -webkit-box;
+    }
+
+    .nav-item {
+        margin: 0.3rem;
+    }
+
+    .jdl-diskon {
+        color: #bb2b81;
+        font-weight: 600;
+        margin-top: 1.5%;
+        margin-right: 2%;
+        margin-left: 4%;
+        /* 1.5 */
+    }
+
+    #rp-mobile {
+        margin-left: 0;
+        font-size: 1.2em;
+    }
+
+    .rp {
+        margin-left: 0;
+    }
+
+    .product-footer {
+        bottom: -5px;
+    }
+    .produk h6 {
+        font-size: 1.2em;
+    }
+
+    .product-description {
+        margin-left: 40%;
+        padding: 2px;
+    }
+
+    .prdct-price {
+        margin-top: 0.5em;
+    }
+
+    .produk p {
+        font-size: 0.8em;
+    }
+
+    #bintang {
+        font-size: 1em;
+    }
+
+    /* CONTENT BAWAH */
+    #btn-produk {
+        padding: 5px;
+    }
+
+    /* FOOTER */
+
+    .mitra h6 {
+        font-size: 1em;
+    }
+
+    .sosmed {
+        width: 100%;
+        text-align: center;
+    }
+
+    .lgvw {
+        margin-top: -7%;
+    }
+
+    .socmed {
+        display: inline-block;
+        width: 100%;
+
+        border: none;
+        border-radius: 4px;
+    }
+
+    .socmed img {
+        width: 100%;
+    }
+
+    #tombol-ikut {
+        text-align: left;
+        width: 90%;
+    }
+
+    .daftar button {
+        padding: 5px;
+        font-size: 1em;
+    }
+    #summary a.collapsed:after {
+        margin-left: 3px;
+    }
+
+    #summary a:not(.collapsed):after {
+        margin-left: 3px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1023px) {
+    body {
+        padding: 0;
+        margin: 0;
+    }
+
+    .navbar-brand {
+        margin-left: 1%;
+    }
+
+    nav {
+        margin: 0;
+        padding: 0;
+    }
+    .navbar-logout {
+        margin: 6px 0px 0 4px;
+    }
+
+    .category-btn {
+        margin-left: 0;
+    }
+    #cart {
+        right: -13em;
+        height: 35%;
+    }
+
+    #catalog {
+        text-align: center;
+    }
+
+    .navbar-expand-lg .navbar-nav {
+        margin-left: 1rem;
+    }
+    /* button.btn.btn-outline-success.nav-button {
+        margin-top: -13px;
+        width: auto;
+        padding: 4px;
+    } */
+    /* .form-inline {
+        margin-left: 1%;
+        margin-top: -3%;
+    } */
+
+    .form-inline .custom-select,
+    .form-inline .input-group {
+        /* width: auto; */
+        display: -webkit-box;
+    }
+
+    .nav-item {
+        margin: 0.3rem;
+    }
+
+    .jdl-diskon {
+        color: #bb2b81;
+        font-weight: 600;
+        margin-top: 2.3%;
+        margin-right: 2%;
+        margin-left: 4%;
+    }
+
+    #rp-mobile {
+        margin-left: 0;
+        font-size: 1.2em;
+    }
+
+    .rp {
+        margin-left: 0;
+    }
+
+    .product-footer {
+        bottom: -5px;
+    }
+    .produk h6 {
+        font-size: 1.2em;
+    }
+
+    .product-description {
+        margin-left: 40%;
+        padding: 2px;
+    }
+
+    .prdct-price {
+        margin-top: 0.5em;
+    }
+
+    .produk p {
+        font-size: 0.8em;
+    }
+
+    #bintang {
+        font-size: 1em;
+    }
+
+    /* CONTENT BAWAH */
+    #btn-produk {
+        padding: 5px;
+    }
+
+    /* FOOTER */
+
+    .mitra h6 {
+        font-size: 1em;
+    }
+
+    .sosmed {
+        width: 100%;
+        text-align: center;
+    }
+
+    .lgvw {
+        margin-top: -7%;
+    }
+
+    .socmed {
+        display: inline-block;
+        width: 100%;
+
+        border: none;
+        border-radius: 4px;
+    }
+
+    .socmed img {
+        width: 100%;
+    }
+
+    #tombol-ikut {
+        text-align: left;
+        width: 90%;
+    }
+
+    .daftar button {
+        padding: 5px;
+        font-size: 1em;
+    }
+    #summary a.collapsed:after {
+        margin-left: 3px;
+    }
+
+    #summary a:not(.collapsed):after {
+        margin-left: 3px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    body {
+        padding: 0;
+        margin: 0;
+    }
+
+    nav {
+        margin: 0;
+        padding: 0;
+    }
+
+    button.btn.btn-outline-success.nav-button {
+        width: auto;
+        padding: 4px;
+    }
+
+    #cart {
+        right: -13em;
+        height: 35%;
+    }
+
+    #catalog {
+        text-align: center;
+    }
+
+    /* .form-inline {
+        margin-left: 1%;
+    } */
+
+    .nav-item {
+        margin: 0.5rem;
+    }
+
+    .jdl-diskon {
+        color: #bb2b81;
+        font-weight: 600;
+        margin-top: 2.3%;
+        margin-right: 2%;
+        margin-left: 4%;
+    }
+
+    #rp-mobile {
+        margin-left: 0;
+        font-size: 1.2em;
+    }
+
+    .rp {
+        margin-left: 0;
+    }
+
+    /* figure.produk {
+        margin: 0 !important;
+        margin-left: 0 !important;
+    } */
+
+    .product-footer {
+        bottom: -5px;
+    }
+    .produk h6 {
+        font-size: 1.2em;
+    }
+
+    .produk p {
+        font-size: 0.8em;
+    }
+
+    .product-description {
+        margin-left: 40%;
+        padding: 2px;
+    }
+
+    .prdct-price {
+        margin-top: 0.5em;
+    }
+
+    #bintang {
+        font-size: 1em;
+    }
+
+    /* CONTENT BAWAH */
+    #rp-mobile {
+        margin-left: 0;
+    }
+
+    #btn-produk {
+        padding: 5px;
+    }
+
+    /* FOOTER */
+
+    .mitra h6 {
+        font-size: 1em;
+    }
+
+    .sosmed {
+        width: 100%;
+        text-align: center;
+    }
+
+    .socmed {
+        display: inline-block;
+        width: 100%;
+
+        border: none;
+        border-radius: 4px;
+    }
+
+    .socmed img {
+        width: 100%;
+    }
+
+    #tombol-ikut {
+        text-align: left;
+        width: 90%;
+    }
+
+    .daftar button {
+        padding: 5px;
+        font-size: 1em;
+    }
+    #summary a.collapsed:after {
+        margin-left: 3px;
+    }
+
+    #summary a:not(.collapsed):after {
+        margin-left: 3px;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    body {
+        padding: 0;
+        margin: 0;
+    }
+
+    nav {
+        margin: 0;
+        padding: 0;
+    }
+
+    #catalog {
+        text-align: center;
+    }
+
+    /* .form-inline {
+        margin-left: 1%;
+    } */
+
+    button.btn.btn-outline-success.nav-button {
+        width: auto;
+        padding: 4px;
+    }
+
+    .nav-item {
+        margin: 0.3rem;
+    }
+
+    .jdl {
+        font-size: 1em;
+    }
+
+    .jdl-diskon {
+        color: #bb2b81;
+        font-weight: 600;
+        margin-top: 3.5%;
+        margin: 16px 0 0 45px;
+    }
+
+    .MultiCarousel .rightLst {
+        right: 4%;
+    }
+    .MultiCarousel .MultiCarousel-inner .item > div {
+        width: auto;
+    }
+
+    .MultiCarousel .leftLst,
+    .MultiCarousel .rightLst {
+        position: absolute;
+        border-radius: 50%;
+        top: calc(44% - 20px);
+    }
+    .carousel-inner {
+        margin: 8% auto;
+    }
+    .pad15 {
+        transition: all ease 0.3s;
+        position: relative;
+        box-shadow: 0 10px 20px -8px;
+        border-radius: 4px;
+    }
+    .mod-countdown {
+        margin: 0 0 0 2%;
+    }
+    #catalog article {
+        margin-right: none;
+    }
+
+    #auto {
+        width: auto !important;
+        margin: 0 !important;
+        height: 322px;
+    }
+
+    .item {
+        width: 11%;
+    }
+
+    p#collapseSummary {
+        font-size: 1.3em;
+    }
+
+    #summary p.collapse:not(.show) {
+        height: 38px !important;
+    }
+
+    #summary a.collapsed:after {
+        margin-left: 0.4%;
+        font-size: 1.2em;
+    }
+
+    #summary a:not(.collapsed):after {
+        margin-left: 0.4%;
+        font-size: 1.2em;
+    }
+    figure.produk {
+        margin: 0 5px 5px 0;
+        /* margin-left: 15px; */
+        display: inline-block;
+        vertical-align: top;
+        padding: 2px;
+    }
+    .product-footer button {
+        font-size: 0.9rem;
+        width: 100%;
+    }
+
+    .product-description {
+        margin-left: 40%;
+        padding: 2px;
+    }
+
+    .prdct-price {
+        margin-top: 0.5em;
+    }
+
+    .flashsale {
+        height: auto;
+    }
+
+    #cart {
+        right: -13em;
+        height: 35%;
+    }
+
+    h2 {
+        width: max-content;
+    }
+
+    .item {
+        width: 10% !important;
+    }
+
+    .price {
+        width: 0;
+        margin: 0 0 0 20%;
+    }
+
+    .produk h2 {
+        font-size: 1.2em;
+    }
+
+    .price,
+    .subtotal {
+        width: 60% !important;
+    }
+
+    .produk h6 {
+        font-size: 1.2em;
+    }
+
+    .produk p {
+        font-size: 0.8em;
+    }
+
+    #bintang {
+        font-size: 1em;
+    }
+
+    /* CONTENT BAWAH */
+    #rp-mobile {
+        margin-left: 0;
+    }
+
+    .rp {
+        font-size: 1.3em;
+    }
+
+    #btn-produk {
+        padding: 0.5em;
+    }
+
+    /* FOOTER */
+
+    .mitra h6 {
+        font-size: 1em;
+    }
+
+    .sosmed {
+        width: 100%;
+        text-align: center;
+    }
+
+    .socmed {
+        display: inline-block;
+        width: 100%;
+
+        border: none;
+        border-radius: 4px;
+    }
+
+    .socmed img {
+        width: 100%;
+    }
+
+    #tombol-ikut {
+        text-align: left;
+        width: 90%;
+    }
+
+    .daftar button {
+        padding: 5px;
+        font-size: 1em;
+    }
+
+    /* property product */
+    .product {
+        display: inline-block;
+        width: 13em;
+        padding: 15px;
+        border: 5px solid transparent;
+        vertical-align: top;
+        text-align: left;
+        transition: all ease 0.3s;
+        margin: 7px 5px 24px 0;
+        position: relative;
+        box-shadow: 0 10px 20px -8px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .nav-item {
+        margin-bottom: 5px;
+    }
+
+    .navbar button {
+        margin: 0 1em 0 1em;
+    }
+    .navbar-toggler {
+        width: 10%;
+        padding: 1% 0 1% 0;
+        margin: 0 0 0 2%;
+    }
+
+    #catalog {
+        text-align: center;
+    }
+
+    .navbar-logout {
+        margin-left: 16px;
+    }
+
+    .category-btn {
+        margin-left: -10%;
+        width: 94px;
+        margin-top: 16%;
+    }
+
+    .category-menu {
+        position: absolute;
+        top: 88%;
+        left: 30px;
+    }
+
+    /* HALAMAN PAGE CART */
+    .checkbock {
+        margin: 0px 0 5px 0;
+    }
+    .w-100 {
+        width: 100% !important;
+    }
+    .container-fluid {
+        margin: 0px 0 0 -4%;
+        padding: 0;
+    }
+    .rp {
+        line-height: 0.4em;
+        margin-left: 1%;
+    }
+    #produk-mobile {
+        width: 143px;
+        height: 35%;
+    }
+    #carouselExampleFade.carousel.slide.carousel-fade {
+        width: 100%;
+        height: 50%;
+    }
+
+    .rp {
+        margin-left: 0%;
+    }
+
+    .count {
+        display: inline-block;
+        font-size: 10px;
+        line-height: 0.65em;
+        font-weight: bold;
+    }
+
+    /* END PAGE CART */
+
+    .rightLst {
+        margin: 0 7% 0 0;
+    }
+    .carousel-inner {
+        margin: -9% 0 0 0;
+    }
+    .carousel {
+        margin: 24% 0 0 0;
+    }
+
+    .search-toggler {
+        padding-left: 4%;
+    }
+
+    button.btn.btn-outline-success.nav-button-img {
+        min-width: 73px;
+    }
+
+    .navbar-toggler-icon {
+        width: 1.2em;
+        height: 1.2em;
+    }
+    .navbar-category:hover > .category-menu {
+        margin-left: -67px;
+        width: 146px;
+    }
+
+    .navbar-brand img {
+        width: auto;
+        height: auto;
+        margin: 0px 0 0 -5%;
+    }
+    .jdl {
+        font-size: 1em;
+    }
+
+    .jdl-diskon {
+        margin: 17px 2px 0 25px;
+        padding: 0px 23px;
+        color: #bb2b81;
+        font-weight: 600;
+    }
+
+    #kategori-mobile {
+        width: 73%;
+        margin: 0 0 0 12%;
+    }
+    .mod-countdown {
+        margin: 0 0 0 -5px;
+        font-size: 10px;
+    }
+
+    figure.produk {
+        margin: 0 5px 5px 0;
+        /* margin-left: 15px; */
+        display: inline-block;
+        vertical-align: top;
+        padding: 2px;
+    }
+    .MultiCarousel .MultiCarousel-inner .item > div {
+        width: auto;
+    }
+
+    .item {
+        width: 11%;
+    }
+    .pad15-produk {
+        width: 45%;
+    }
+    /* 
+    button.btn.btn-outline-success.nav-button {
+        width: 100%;
+    } */
+
+    .flashsale {
+        height: auto;
+    }
+
+    #cart {
+        right: -12.9em;
+        height: 35%;
+    }
+
+    h2 {
+        width: max-content;
+    }
+
+    .price {
+        width: 100% !important;
+        /* margin: 0 0 0 20%; */
+    }
+
+    .product-footer {
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        top: 79%;
+    }
+
+    figure.produk {
+        margin: 0 5px 5px 0;
+        margin-left: 15px;
+        display: inline-block;
+        vertical-align: top;
+        padding: 2px;
+    }
+
+    .product-description {
+        margin-left: 40%;
+        padding: 2px;
+    }
+
+    .produk h2 {
+        font-size: 1em;
+    }
+
+    .produk h6,
+    .produk p {
+        font-size: 1em;
+    }
+
+    /* CONTENT BAWAH */
+    #rp-mobile {
+        margin-left: 0;
+    }
+
+    #btn-produk {
+        padding: 3%;
+    }
+
+    button.leftLst.leftList {
+        border-radius: 50%;
+        position: absolute;
+        left: 5%;
+        top: 22%;
+    }
+
+    .MultiCarousel.diskoncepat {
+        margin-left: 15px;
+    }
+
+    /* FOOTER */
+
+    .mitra h6 {
+        font-size: 1em;
+    }
+
+    .sosmed {
+        width: 100%;
+        text-align: center;
+    }
+
+    .socmed {
+        display: inline-block;
+        width: 100%;
+
+        border: none;
+        border-radius: 4px;
+    }
+
+    .socmed img {
+        width: 100%;
+        cursor: pointer;
+    }
+
+    #tombol-ikut {
+        text-align: left;
+        width: 70%;
+        margin: 2% 0 0 7%;
+    }
+    /* .summary p,
+    a {
+        margin: 3% 0 0 3%;
+    } */
+    .daftar button {
+        padding: 4px;
+        font-size: 0.9em;
+    }
+    #auto {
+        width: auto !important;
+        margin: 0 !important;
+        height: 322px;
+    }
+    /* /baca selengkapnya/ */
+    #summary a.collapsed:after {
+        margin-left: 6%;
+    }
+
+    #summary p.collapse:not(.show) {
+        margin-left: 5%;
+    }
+
+    .p-1 {
+        margin-left: 5%;
+    }
+
+    p,
+    h1.custom {
+        font-size: 1rem !important;
+        line-height: 1.6rem;
+    }
+
+    #summary a:not(.collapsed):after {
+        margin-left: 5%;
+    }
+
+    /* SIDE CART */
+    .cart-title {
+        font-size: 1em;
+        font-weight: bold;
+    }
+
+    .rp {
+        margin-left: 0;
+        /* IMPORTANT DI HILANGIN */
+        line-height: 1.1em !important;
+        font-size: 1.2em !important;
+        /* margin-top: 0.5em; */
+    }
+}
